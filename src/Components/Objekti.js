@@ -1,0 +1,43 @@
+export default function Objekti({ props }) {
+  return (
+    <div>
+      <center>
+        <table>
+          <tr>
+            <td>{props.m1}</td>
+            <td>{props.m2}</td>
+            <td>{props.m3}</td>
+          </tr>
+          <tr>
+            <td>{props.m4}</td>
+            <td>{props.m5}</td>
+            <td>{props.m6}</td>
+          </tr>
+          <tr>
+            <td>{props.m7}</td>
+            <td>{props.m8}</td>
+            <td>{props.m9}</td>
+          </tr>
+          <tr>
+            <td>{props.m10}</td>
+            <td>{props.m11}</td>
+            <td>{props.m12}</td>
+          </tr>
+          <tr>
+            <td>{props.m13}</td>
+            <td>{props.m14}</td>
+            <td>{props.m15}</td>
+          </tr>
+          <td>{props.m16}</td>
+          <td>{props.m17}</td>
+          <td>{props.m18}</td>
+          <tr>
+            <td>{props.m19}</td>
+            <td>{props.m20}</td>
+            <td>{props.m21}</td>
+          </tr>
+        </table>
+      </center>
+    </div>
+  );
+}
